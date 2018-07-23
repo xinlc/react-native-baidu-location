@@ -1,5 +1,5 @@
 {
-  "name": "react-native-baidu-location",
+  "name": "react-native-baidu-geolocation",
   "version": "0.0.1",
   "description": "百度定位",
   "main": "src/index.js",
