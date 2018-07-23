@@ -21,6 +21,13 @@
         </intent-filter>
       </activity>
       <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+
+
+        <!-- baidu  loc sdk service -->
+        <meta-data
+                android:name="com.baidu.lbsapi.API_KEY"
+                android:value="06gmE6b71Pj6aw5GsRvHIxzDDs5OGlDV" />
+        <service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote"></service>
     </application>
 
 </manifest>

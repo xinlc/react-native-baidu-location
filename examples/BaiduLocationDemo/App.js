@@ -7,23 +7,42 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import {Platform, StyleSheet, Text, View, Button} from 'react-native';
+import NRBaiduloc from 'react-native-baidu-location';
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
-  android:
-    'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
-});
+const RCTDeviceEventEmitter = require('RCTDeviceEventEmitter');  // eslint-disable-line
 
 type Props = {};
 export default class App extends Component<Props> {
+
+  state = {
+    location: {},
+  }
+
+  componentDidMount() {
+    // add listener, and set the handler to this.
+    let RNBaiduEventListener = RCTDeviceEventEmitter.addListener('OnReceiveLocation', (ev) => {
+      if (ev.cityCode == 9000) {  // 台湾省下所有城市都映射为台湾
+        ev.city = '台湾';
+      }
+      this.setState({ location: ev });
+    });
+  }
+  _loc () {
+    NRBaiduloc.start();
+  }
+
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to React Native!</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
+        <Button
+          onPress={this._loc}
+          title="定位"
+          color="#841584"
+        />
+        <Text style={styles.welcome}>{
+          JSON.stringify(this.state.location)
+        }</Text>
       </View>
     );
   }
@@ -40,10 +59,5 @@ const styles = StyleSheet.create({
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
   },
 });
