@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -34,13 +35,19 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* BaiduLocationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BaiduLocationDemoTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		41C272DD21086E6100F51A3A /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C272DA21086E6100F51A3A /* BaiduMapAPI_Search.framework */; };
+		41C272DE21086E6100F51A3A /* BaiduMapAPI_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C272DB21086E6100F51A3A /* BaiduMapAPI_Location.framework */; };
+		41C272DF21086E6100F51A3A /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C272DC21086E6100F51A3A /* BaiduMapAPI_Base.framework */; };
+		41C272E321086EEF00F51A3A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C272E221086EEF00F51A3A /* libsqlite3.0.tbd */; };
+		41C272E521086EFB00F51A3A /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C272E421086EFB00F51A3A /* libstdc++.6.0.9.tbd */; };
+		41C272F9210992C800F51A3A /* RNBaiduLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C272F8210992B100F51A3A /* RNBaiduLocation.framework */; };
+		58A5D086D2364BAF8B3E3267 /* BaiduLocation.app in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7BE973406049D49DC1366C /* BaiduLocation.app */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		72E4806079384716A841E290 /* BaiduLocation-tvOSTests.xctest in Frameworks */ = {isa = PBXBuildFile; fileRef = 353C4F371C8943C880E9E4C6 /* BaiduLocation-tvOSTests.xctest */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		9A16815F0FF44AE5B220134F /* BaiduLocationTests.xctest in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBDC434C9C7476C854261D8 /* BaiduLocationTests.xctest */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		58A5D086D2364BAF8B3E3267 /* BaiduLocation.app in Resources */ = {isa = PBXBuildFile; fileRef = 6B7BE973406049D49DC1366C /* BaiduLocation.app */; };
-		9A16815F0FF44AE5B220134F /* BaiduLocationTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 7CBDC434C9C7476C854261D8 /* BaiduLocationTests.xctest */; };
-		E2EEA596319B437BBDEF27D2 /* BaiduLocation-tvOS.app in Resources */ = {isa = PBXBuildFile; fileRef = E532934AA86C4B7CB55DED76 /* BaiduLocation-tvOS.app */; };
-		72E4806079384716A841E290 /* BaiduLocation-tvOSTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 353C4F371C8943C880E9E4C6 /* BaiduLocation-tvOSTests.xctest */; };
+		E2EEA596319B437BBDEF27D2 /* BaiduLocation-tvOS.app in Frameworks */ = {isa = PBXBuildFile; fileRef = E532934AA86C4B7CB55DED76 /* BaiduLocation-tvOS.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -282,6 +289,41 @@
 			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
 			remoteInfo = "jschelpers-tvOS";
 		};
+		41C27214210846A400F51A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB66D2167455485A9319E0FE /* BaiduLocation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 13B07F961A680F5B00A75B9A;
+			remoteInfo = BaiduLocation;
+		};
+		41C27216210846A400F51A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB66D2167455485A9319E0FE /* BaiduLocation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 00E356EE1AD99517003FC87E;
+			remoteInfo = BaiduLocationTests;
+		};
+		41C27218210846A400F51A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB66D2167455485A9319E0FE /* BaiduLocation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D02E47B1E0B4A5D006451C7;
+			remoteInfo = "BaiduLocation-tvOS";
+		};
+		41C2721A210846A400F51A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB66D2167455485A9319E0FE /* BaiduLocation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D02E4901E0B4A5D006451C7;
+			remoteInfo = "BaiduLocation-tvOSTests";
+		};
+		41C272F7210992B100F51A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41C272F3210992B100F51A3A /* RNBaiduLocation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 41C2722621084B1A00F51A3A;
+			remoteInfo = RNBaiduLocation;
+		};
 		5E9157321DD0AC6500FF2AA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */;
@@ -342,15 +384,24 @@
 		2D02E47B1E0B4A5D006451C7 /* BaiduLocationDemo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BaiduLocationDemo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* BaiduLocationDemo-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BaiduLocationDemo-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		353C4F371C8943C880E9E4C6 /* BaiduLocation-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = "BaiduLocation-tvOSTests.xctest"; sourceTree = "<group>"; };
+		41C2728C210866E800F51A3A /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = "../node_modules/react-native-baidu-location/ios/RNBaiduLocation/RNBaiduLocation/vender/BaiduMapAPI_Search.framework"; sourceTree = "<group>"; };
+		41C2728D210866E900F51A3A /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Location.framework; path = "../node_modules/react-native-baidu-location/ios/RNBaiduLocation/RNBaiduLocation/vender/BaiduMapAPI_Location.framework"; sourceTree = "<group>"; };
+		41C2728E210866E900F51A3A /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = "../node_modules/react-native-baidu-location/ios/RNBaiduLocation/RNBaiduLocation/vender/BaiduMapAPI_Base.framework"; sourceTree = "<group>"; };
+		41C272DA21086E6100F51A3A /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = "../node_modules/react-native-baidu-location/ios/RNBaiduLocation/vender/BaiduMapAPI_Search.framework"; sourceTree = "<group>"; };
+		41C272DB21086E6100F51A3A /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Location.framework; path = "../node_modules/react-native-baidu-location/ios/RNBaiduLocation/vender/BaiduMapAPI_Location.framework"; sourceTree = "<group>"; };
+		41C272DC21086E6100F51A3A /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = "../node_modules/react-native-baidu-location/ios/RNBaiduLocation/vender/BaiduMapAPI_Base.framework"; sourceTree = "<group>"; };
+		41C272E221086EEF00F51A3A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		41C272E421086EFB00F51A3A /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		41C272F3210992B100F51A3A /* RNBaiduLocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNBaiduLocation.xcodeproj; path = "../node_modules/react-native-baidu-location/ios/RNBaiduLocation.xcodeproj"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		6B7BE973406049D49DC1366C /* BaiduLocation.app */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.application; path = BaiduLocation.app; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		7CBDC434C9C7476C854261D8 /* BaiduLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = BaiduLocationTests.xctest; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		BB66D2167455485A9319E0FE /* BaiduLocation.xcodeproj */ = {isa = PBXFileReference; name = "BaiduLocation.xcodeproj"; path = "../node_modules/react-native-baidu-location/ios/BaiduLocation.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		6B7BE973406049D49DC1366C /* BaiduLocation.app */ = {isa = PBXFileReference; name = "BaiduLocation.app"; path = "BaiduLocation.app"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.application; explicitFileType = undefined; includeInIndex = 0; };
-		7CBDC434C9C7476C854261D8 /* BaiduLocationTests.xctest */ = {isa = PBXFileReference; name = "BaiduLocationTests.xctest"; path = "BaiduLocationTests.xctest"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.cfbundle; explicitFileType = undefined; includeInIndex = 0; };
-		E532934AA86C4B7CB55DED76 /* BaiduLocation-tvOS.app */ = {isa = PBXFileReference; name = "BaiduLocation-tvOS.app"; path = "BaiduLocation-tvOS.app"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.application; explicitFileType = undefined; includeInIndex = 0; };
-		353C4F371C8943C880E9E4C6 /* BaiduLocation-tvOSTests.xctest */ = {isa = PBXFileReference; name = "BaiduLocation-tvOSTests.xctest"; path = "BaiduLocation-tvOSTests.xctest"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.cfbundle; explicitFileType = undefined; includeInIndex = 0; };
+		BB66D2167455485A9319E0FE /* BaiduLocation.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = BaiduLocation.xcodeproj; path = "../node_modules/react-native-baidu-location/ios/BaiduLocation.xcodeproj"; sourceTree = "<group>"; };
+		E532934AA86C4B7CB55DED76 /* BaiduLocation-tvOS.app */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "BaiduLocation-tvOS.app"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -366,6 +417,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C272F9210992C800F51A3A /* RNBaiduLocation.framework in Frameworks */,
+				41C272E521086EFB00F51A3A /* libstdc++.6.0.9.tbd in Frameworks */,
+				41C272E321086EEF00F51A3A /* libsqlite3.0.tbd in Frameworks */,
+				41C272DD21086E6100F51A3A /* BaiduMapAPI_Search.framework in Frameworks */,
+				41C272DE21086E6100F51A3A /* BaiduMapAPI_Location.framework in Frameworks */,
+				41C272DF21086E6100F51A3A /* BaiduMapAPI_Base.framework in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
@@ -379,8 +436,8 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				58A5D086D2364BAF8B3E3267 /* BaiduLocation.app in Resources */,
-				9A16815F0FF44AE5B220134F /* BaiduLocationTests.xctest in Resources */,
+				58A5D086D2364BAF8B3E3267 /* BaiduLocation.app in Frameworks */,
+				9A16815F0FF44AE5B220134F /* BaiduLocationTests.xctest in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,14 +453,8 @@
 				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
 				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
 				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
-				3211F2C353E0455583006651 /* BaiduLocation-tvOS.app in Resources */,
-				1AB5ED95003F4E87A2760D9F /* BaiduLocation-tvOSTests.xctest in Resources */,
-				10229DB3D3264C3883C2EA46 /* BaiduLocation-tvOS.app in Resources */,
-				442A6AE6357C402596E7F447 /* BaiduLocation-tvOSTests.xctest in Resources */,
-				03AE963603034C4D835C2FE4 /* BaiduLocation-tvOS.app in Resources */,
-				A0C0BCC41D974134A3F34AFC /* BaiduLocation-tvOSTests.xctest in Resources */,
-				E2EEA596319B437BBDEF27D2 /* BaiduLocation-tvOS.app in Resources */,
-				72E4806079384716A841E290 /* BaiduLocation-tvOSTests.xctest in Resources */,
+				E2EEA596319B437BBDEF27D2 /* BaiduLocation-tvOS.app in Frameworks */,
+				72E4806079384716A841E290 /* BaiduLocation-tvOSTests.xctest in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,9 +588,47 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				41C272E421086EFB00F51A3A /* libstdc++.6.0.9.tbd */,
+				41C272E221086EEF00F51A3A /* libsqlite3.0.tbd */,
+				41C2728E210866E900F51A3A /* BaiduMapAPI_Base.framework */,
+				41C272DC21086E6100F51A3A /* BaiduMapAPI_Base.framework */,
+				41C2728D210866E900F51A3A /* BaiduMapAPI_Location.framework */,
+				41C272DB21086E6100F51A3A /* BaiduMapAPI_Location.framework */,
+				41C2728C210866E800F51A3A /* BaiduMapAPI_Search.framework */,
+				41C272DA21086E6100F51A3A /* BaiduMapAPI_Search.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41C271DC2108469F00F51A3A /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				6B7BE973406049D49DC1366C /* BaiduLocation.app */,
+				7CBDC434C9C7476C854261D8 /* BaiduLocationTests.xctest */,
+				E532934AA86C4B7CB55DED76 /* BaiduLocation-tvOS.app */,
+				353C4F371C8943C880E9E4C6 /* BaiduLocation-tvOSTests.xctest */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		41C2720E210846A200F51A3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41C27215210846A400F51A3A /* BaiduLocation.app */,
+				41C27217210846A400F51A3A /* BaiduLocationTests.xctest */,
+				41C27219210846A400F51A3A /* BaiduLocation-tvOS.app */,
+				41C2721B210846A400F51A3A /* BaiduLocation-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41C272F4210992B100F51A3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41C272F8210992B100F51A3A /* RNBaiduLocation.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
@@ -563,6 +652,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				41C272F3210992B100F51A3A /* RNBaiduLocation.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -597,6 +687,7 @@
 				00E356EF1AD99517003FC87E /* BaiduLocationDemoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				41C271DC2108469F00F51A3A /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -711,6 +802,9 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = K6VEHMM9MJ;
+					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
@@ -734,6 +828,10 @@
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 41C2720E210846A200F51A3A /* Products */;
+					ProjectRef = BB66D2167455485A9319E0FE /* BaiduLocation.xcodeproj */;
+				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
@@ -781,6 +879,10 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = 41C272F4210992B100F51A3A /* Products */;
+					ProjectRef = 41C272F3210992B100F51A3A /* RNBaiduLocation.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -1018,6 +1120,41 @@
 			remoteRef = 3DAD3EAE1DF850E9000B6D8A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		41C27215210846A400F51A3A /* BaiduLocation.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = BaiduLocation.app;
+			remoteRef = 41C27214210846A400F51A3A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41C27217210846A400F51A3A /* BaiduLocationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BaiduLocationTests.xctest;
+			remoteRef = 41C27216210846A400F51A3A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41C27219210846A400F51A3A /* BaiduLocation-tvOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "BaiduLocation-tvOS.app";
+			remoteRef = 41C27218210846A400F51A3A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41C2721B210846A400F51A3A /* BaiduLocation-tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "BaiduLocation-tvOSTests.xctest";
+			remoteRef = 41C2721A210846A400F51A3A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41C272F8210992B100F51A3A /* RNBaiduLocation.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RNBaiduLocation.framework;
+			remoteRef = 41C272F7210992B100F51A3A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1191,15 +1328,13 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-baidu-location/ios/BaiduLocation",
+				);
 				INFOPLIST_FILE = BaiduLocationDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiduLocationDemo.app/BaiduLocationDemo";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1207,10 +1342,12 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-baidu-location/ios/BaiduLocation",
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
 				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiduLocationDemo.app/BaiduLocationDemo";
 			};
 			name = Debug;
 		};
@@ -1219,15 +1356,13 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-baidu-location/ios/BaiduLocation",
+				);
 				INFOPLIST_FILE = BaiduLocationDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiduLocationDemo.app/BaiduLocationDemo";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1235,10 +1370,12 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-baidu-location/ios/BaiduLocation",
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
 				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiduLocationDemo.app/BaiduLocationDemo";
 			};
 			name = Release;
 		};
@@ -1248,6 +1385,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = K6VEHMM9MJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../node_modules/react-native-baidu-location/ios/RNBaiduLocation/vender/**",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-baidu-location/ios/BaiduLocation",
+					"$(SRCROOT)/../node_modules/react-native-baidu-location/ios/RNBaiduLocation",
+				);
 				INFOPLIST_FILE = BaiduLocationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1256,11 +1403,9 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = BaiduLocationDemo;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = "";
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-baidu-location/ios/BaiduLocation",
-				);
 			};
 			name = Debug;
 		};
@@ -1269,6 +1414,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6VEHMM9MJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../node_modules/react-native-baidu-location/ios/RNBaiduLocation/vender/**",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-baidu-location/ios/BaiduLocation",
+					"$(SRCROOT)/../node_modules/react-native-baidu-location/ios/RNBaiduLocation",
+				);
 				INFOPLIST_FILE = BaiduLocationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1277,11 +1432,9 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = BaiduLocationDemo;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = "";
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-baidu-location/ios/BaiduLocation",
-				);
 			};
 			name = Release;
 		};
@@ -1297,8 +1450,19 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-baidu-location/ios/BaiduLocation",
+				);
 				INFOPLIST_FILE = "BaiduLocationDemo-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1308,17 +1472,6 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-baidu-location/ios/BaiduLocation",
-				);
 			};
 			name = Debug;
 		};
@@ -1334,8 +1487,19 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-baidu-location/ios/BaiduLocation",
+				);
 				INFOPLIST_FILE = "BaiduLocationDemo-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1345,17 +1509,6 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-baidu-location/ios/BaiduLocation",
-				);
 			};
 			name = Release;
 		};
@@ -1370,8 +1523,19 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-baidu-location/ios/BaiduLocation",
+				);
 				INFOPLIST_FILE = "BaiduLocationDemo-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1381,17 +1545,6 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiduLocationDemo-tvOS.app/BaiduLocationDemo-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-baidu-location/ios/BaiduLocation",
-				);
 			};
 			name = Debug;
 		};
@@ -1406,8 +1559,19 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-baidu-location/ios/BaiduLocation",
+				);
 				INFOPLIST_FILE = "BaiduLocationDemo-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1417,17 +1581,6 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaiduLocationDemo-tvOS.app/BaiduLocationDemo-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-baidu-location/ios/BaiduLocation",
-				);
 			};
 			name = Release;
 		};

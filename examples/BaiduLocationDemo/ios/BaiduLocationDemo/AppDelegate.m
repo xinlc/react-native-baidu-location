@@ -14,6 +14,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  
+  // 初始化百度sdk
+  _mapManager = [[BMKMapManager alloc] init];
+  BOOL ret = [_mapManager start:@"X7raZdfA9rn4F2glny0DLlv1vNmSZor2" generalDelegate:nil];
+  if (!ret) {
+    NSLog(@"baidu map error.");
+  }
+  
   NSURL *jsCodeLocation;
 
   jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
