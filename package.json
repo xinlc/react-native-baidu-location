@@ -1,6 +1,6 @@
 {
   "name": "react-native-baidu-geolocation",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "百度定位",
   "main": "src/index.js",
   "scripts": {
@@ -25,7 +25,9 @@
   },
   "homepage": "https://github.com/xinlc/react-native-baidu-location",
   "files": [
-    "src"
+    "src",
+    "android",
+    "ios"
   ],
   "peerDependencies": {
     "prop-types": "*",
